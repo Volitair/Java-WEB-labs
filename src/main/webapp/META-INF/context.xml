@@ -1,0 +1,10 @@
+<Context>
+    <Resource name="jdbc/DB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxIdle="5"
+              username="service_center_admin"
+              password="qwer"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://localhost:5432/asd"/>
+</Context>
